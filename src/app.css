@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Kumbh+Sans:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+}
+
+.header_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 165px;
+}
+
+.sneakers-texts {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+.sneakers-texts .bounce {
+    display: none;
+    position: relative;
+}
+
+.menu_bar {
+    /* height: 900px; */
+    width: 250px;
+    position: absolute;
+    transform: translateY(356px) translateX(-165px);
+    background: #FFFFFF;
+    height: 630px;
+    box-shadow: 0px 20px 50px -20px #1D202680;
+}
+
+.menu_bar .Contacts {
+    padding: 0 25px;
+    transform: translateY(100px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu_bar h3 {
+    cursor: pointer;
+    color: black;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color:
+        #1D2026;
+}
+
+.sneakers-texts img {
+    cursor: pointer;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+}
+
+.navbar-link {
+    text-decoration: none;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #69707D;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+}
+
+.cart i {
+    cursor: pointer;
+    color: #69707D;
+    font-size: 20px;
+    position: relative;
+    z-index: 100;
+}
+
+.cart .rendering-shop {
+    position: absolute;
+    width: 360px;
+    height: 256px;
+    box-shadow: 0px 20px 50px -20px #1D202680;
+    transform: translateY(170px) translateX(-100px);
+    z-index: 1;
+    padding: 24px 24px;
+    background: #FFFFFF;
+}
+
+.rendering-shop h3 {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.84px;
+    color:
+        #1D2026;
+    margin-bottom: 27px;
+}
+
+.rendering-shop hr {
+    width: 360px;
+    transform: translateX(-24px);
+    color: #E4E9F2;
+    margin-bottom: 30px;
+}
+
+.cart-shop {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.cart-shop p {
+    font-family: "Kumbh Sans", sans-serif;
+    color:#69707D;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.cart-shop p span {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: black;
+}
+
+.carts .cart-button {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.84px;
+    color: #FFFFFF;
+
+    padding: 19px 120px;
+    border-radius: 10px;
+    border: unset;
+    background: #FF7E1B;
+}
+
+.rendering-shop h4 {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color:#69707D;
+}
+
+.cart img {
+    height: 50px;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 90px;
+    padding: 0 213px;
+}
+
+.sneaker-flexer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 125px;
+}
+
+.sneakers-row-images {
+    margin-top: 32px;
+    display: flex;
+    gap: 31px;
+}
+
+.image-first:hover {
+    border: 2px solid #FF7E1B;
+    border-radius: 50%;
+}
+
+.sneakers-row-images .first {
+    width: 90px;
+    height: 88px;
+    border-radius: 10px;
+}
+
+.sneakers-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    transform: translateX(15px) translateY(-100px);
+}
+
+.sneakers-text h3 {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16.12px;
+    letter-spacing: 2px;
+    color: #FF7E1B;
+}
+
+.sneakers-text h1 {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 48px;
+    color: #1D2026;
+    width: 445px;
+}
+
+.sneakers-text p {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #69707D;
+    width:
+        445px;
+}
+
+.sneakers-text .bills {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    gap: 16px;
+}
+
+.bills h1 {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34.73px;
+    color:
+        #1D2026;
+}
+
+.bills h4 {
+    padding: 7px 8px;
+    background: #FFEEE2;
+    border-radius: 8px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.84px;
+    color: #FF7E1B;
+}
+
+.incre-and-add {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.increment {
+    padding: 20px 10px;
+    background: #F6F8FD;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+.increment .first {
+    color:#FF7E1B;
+    cursor: pointer;
+    border: unset;
+    background: transparent;
+    font-size: 30px;
+}
+
+.increment .second {
+    color:#FF7E1B;
+    cursor: pointer;
+    border: unset;
+    background: transparent;
+    font-size: 30px;
+}
+
+.check {
+    background:#FF7E1B;
+    padding: 28px 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.check:hover {
+    background: #FFAB6A;
+}
+
+.check i {
+    color: #FFFFFF;
+}
+
+.check span {
+    font-family: "Kumbh Sans", sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.84px;
+}

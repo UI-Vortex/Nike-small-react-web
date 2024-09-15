@@ -1,0 +1,90 @@
+@media (max-width: 1440px) {}
+@media (max-width: 1320px) {}
+@media (max-width: 1290px) {}
+@media (max-width: 1170px) {}
+@media (max-width: 1140px) {}
+@media (max-width: 1034px) {
+    .navbar-list {
+        display: none;
+    }
+}
+/* tab */
+@media (max-width: 992px) {}
+@media (max-width: 850px) {}
+/* mobile */
+@media (max-width: 768px) {}
+@media (max-width: 734px) {}
+@media (max-width: 684px) {}
+@media (max-width: 667px) {
+    .cart {
+        margin-left: 50px;
+    }
+}
+/* mobile < 576  */
+@media (max-width: 576px) {
+    .cart {
+        display: flex;
+        gap: 15px;
+    }
+
+    .sneakers-texts img {
+        transform: translateX(-130px);
+        position: relative;
+    }
+    .sneakers-texts .bounce {
+        display: block;
+        position: absolute;
+        left: 0;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .cart .rendering-shop {
+        transform: translateY(170px) translateX(-280px);
+    }
+    .bounce {
+        cursor: pointer;
+    }
+    .cart {
+        transform: translateX(-30px);
+        background: #FFFFFF;
+    }
+    .cart img {
+        height: 50px;
+    }
+    .cart i {
+        font-size: 30px;
+    }
+    .sneakers-row-images {
+        display: none;
+    }
+
+    .sneakers-text {
+        margin-top: 24px;
+    }
+    .sneaker-images img {
+        width: 430px;
+    }
+    .sneakers-text {
+        padding: 0 100px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .check {
+        padding: 23px 150px;
+    }
+    .increment {
+        padding: 20px 150px;
+    }
+
+    .increment .first {
+        transform: translateX(-100px);
+    }
+    .increment .second {
+        transform: translateX(100px);
+    }
+}
+@media (max-width: 480px) {}
+@media (max-width: 412px) {}
+@media (max-width: 375px) {}
+@media (max-width: 320px) {}
